@@ -1,0 +1,13 @@
+api2doc:
+  title: Api2Doc示例项目——接口文档
+  icon: https://spring.io/img/homepage/icon-spring-framework.svg
+spring:
+  thymeleaf:
+    cache: false
+    mode: html5
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
